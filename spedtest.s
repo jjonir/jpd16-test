@@ -10,7 +10,7 @@ std pc, find_hw
 
 set a, 1
 set x, sped_data
-set y, sped_data_count
+set y, [sped_data_count]
 hwi [sped]
 
 sub pc, 1
